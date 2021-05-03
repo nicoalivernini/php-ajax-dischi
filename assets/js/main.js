@@ -11,7 +11,6 @@ var app = new Vue ({
 
   mounted() {
     // Chiamata per data albums
-
     axios.get('./dati.php')
     .then((response) => {
       this.albums = (response.data)
