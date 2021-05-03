@@ -20,7 +20,7 @@
     <h4><?= $value['author'] ?></h4>
     <span><?= $value['year'] ?></span>
     <span><?= $value['genere'] ?></span>
-    <?= $value['poster'] ?>
+    <br>
 
   <?php } ?>
 
