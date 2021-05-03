@@ -18,6 +18,8 @@
     ?>
     <h2><?= $value['title'] ?></h2>
     <h4><?= $value['author'] ?></h4>
+    <img src="<?= $value['poster'] ?>" style="width: 20%;" alt="">
+    <br>
     <span><?= $value['year'] ?></span>
     <span><?= $value['genere'] ?></span>
     <br>
